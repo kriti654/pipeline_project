@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.sapient</groupId>
-  <artifactId>another-maven-project</artifactId>
+  <artifactId>practice-project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>another-maven-project</name>
-  <description>A simple another-maven-project.</description>
+  <name>practice-project</name>
+  <description>A simple practice-project.</description>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -24,7 +24,7 @@
 		<sonar.language>java</sonar.language>
 	</properties>
 
-	<dependencies>
+  	<dependencies>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
@@ -47,7 +47,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>Another-Maven-Project</finalName>
+		<finalName>Practice-Maven-Project</finalName>
 		<pluginManagement><!-- lock down plugins versions to avoid using Maven 
 				defaults (may be moved to parent pom) -->
 			<plugins>
@@ -117,11 +117,13 @@
 		</pluginManagement>
 	</build>
 
-	<reporting>
-		<plugins>
-			<plugin>
-				<artifactId>maven-project-info-reports-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</reporting>
+  
+
+  <reporting>
+    <plugins>
+      <plugin>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </reporting>
 </project>
